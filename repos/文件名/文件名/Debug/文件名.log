@@ -1,0 +1,6 @@
+﻿  time_name.c
+C:\Users\NINGMEI\source\repos\文件名\文件名\time_name.c(43,25): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\NINGMEI\source\repos\文件名\文件名\time_name.c(45,11): warning C4013: “strcpy”未定义；假设外部返回 int
+C:\Users\NINGMEI\source\repos\文件名\文件名\time_name.c(47,11): warning C4013: “strcat”未定义；假设外部返回 int
+C:\Users\NINGMEI\source\repos\文件名\文件名\time_name.c(53,9): warning C4013: “free”未定义；假设外部返回 int
+  文件名.vcxproj -> C:\Users\NINGMEI\source\repos\文件名\Debug\文件名.exe
