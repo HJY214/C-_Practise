@@ -45,9 +45,13 @@ void test1(){
     dospeak(cat);
     dospeak(dog);
 }
+void test2(){
+    cout<<"size of annimal = "<< sizeof(Animal) <<endl;
+}
 
 int main(){
-    test1();
+    //test1();
+    test2();
     system("pause");
     return 0;
 }
