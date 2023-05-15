@@ -63,18 +63,15 @@ public:
 
 void doWork(AbstrackDrink* abs){
     abs->makeDrink();
+    delete abs;
 }
 
 void test1(){
     //制作咖啡
-    AbstrackDrink* drink_ = new Coffee;
-    drink_->makeDrink();
-    delete drink_;
-
+    doWork(new Coffee);
+    cout<<"-------------------------"<<endl;
     //制作茶水
-    drink_ = new Tea;
-    drink_->makeDrink();
-    delete drink_;
+    doWork(new Tea);
 }
 
 int main(){
