@@ -12,7 +12,8 @@
                 "-I",
                 "${workspaceFolder}\\repos\\class_example\\include",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                //"${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "D:/Codefile/GitRepo/Code_Practise/repos/class_example/build/${fileBasenameNoExtension}.exe",
                 "-fexec-charset=GBK"
             ],
             "options": {
