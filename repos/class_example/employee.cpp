@@ -15,7 +15,6 @@ void Employee::showInfo()
         << " \t职工姓名 : "<< this->m_Name 
         << " \t岗位 : "<< this->getDeptName() 
         << " \t职责:完成经理交代的任务 "<<endl;
-
 }
 
 string Employee::getDeptName()

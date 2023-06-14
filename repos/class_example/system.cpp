@@ -47,26 +47,29 @@ int main(){
                 m_.AddMember();
                 break;
             case 2://显示职工信息
+                m_.Show_Emp();
                 break;
             case 3://删除离职员工
+                m_.Del_Emp();
                 break;
             case 4://修改离职员工
+                m_.Mod_Emp();
                 break;
             case 5://查找离职员工
+                m_.find_Emp();
                 break;
             case 6://按照编号排序
+                m_.sort_Emp();
                 break;
             case 7://清空所有文档
+                m_.clean_file();
                 break;
             
             default:
             system("cls");
                 break;
         }
-
     }
-    
-
     system("pause");
     return 0;
 }
