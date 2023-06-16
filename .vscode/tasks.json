@@ -8,12 +8,13 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 // "${file}",
-                "${fileDirname}\\*.cpp",
-                "-I",
-                "${workspaceFolder}\\repos\\class_example\\include",
+                "${fileDirname}\\array.cpp",
+                // "-I",
+                // "${fileDirname}/include",
+                // "${workspaceFolder}\\repos\\class_example\\include",
                 "-o",
-                //"${fileDirname}\\${fileBasenameNoExtension}.exe",
-                "D:/Codefile/GitRepo/Code_Practise/repos/class_example/build/${fileBasenameNoExtension}.exe",
+                "${fileDirname}/build/${fileBasenameNoExtension}.exe",
+                // "D:/Codefile/GitRepo/Code_Practise/repos/first_example/build/${fileBasenameNoExtension}.exe",
                 "-fexec-charset=GBK"
             ],
             "options": {
