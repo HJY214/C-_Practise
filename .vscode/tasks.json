@@ -7,14 +7,12 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                // "${file}",
-                "${fileDirname}\\array.cpp",
-                // "-I",
-                // "${fileDirname}/include",
+                "${fileDirname}\\Array.cpp",
+                "-I",
+                "${fileDirname}/../include",
                 // "${workspaceFolder}\\repos\\class_example\\include",
                 "-o",
-                "${fileDirname}/build/${fileBasenameNoExtension}.exe",
-                // "D:/Codefile/GitRepo/Code_Practise/repos/first_example/build/${fileBasenameNoExtension}.exe",
+                "${fileDirname}/../build/${fileBasenameNoExtension}.exe",
                 "-fexec-charset=GBK"
             ],
             "options": {
