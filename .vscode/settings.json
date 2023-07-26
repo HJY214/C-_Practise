@@ -4,6 +4,14 @@
         "ostream": "cpp",
         "limits": "cpp",
         "xstring": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "vector": "cpp",
+        "string": "cpp",
+        "exception": "cpp",
+        "iterator": "cpp",
+        "utility": "cpp",
+        "xmemory": "cpp",
+        "xtr1common": "cpp",
+        "regex": "cpp"
     }
 }

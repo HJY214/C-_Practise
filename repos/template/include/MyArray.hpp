@@ -94,6 +94,8 @@ public:
             //cout << " 已经析构" << endl; 
             delete[] this->Arrayadess;
             this->Arrayadess = NULL;
+            this->m_Capacity = 0;
+            this->m_size = 0;
         }
         
     }
