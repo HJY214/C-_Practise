@@ -12,6 +12,12 @@
         "utility": "cpp",
         "xmemory": "cpp",
         "xtr1common": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "xtree": "cpp",
+        "set": "cpp",
+        "map": "cpp",
+        "atomic": "cpp"
     }
 }
