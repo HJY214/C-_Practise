@@ -7,7 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${fileDirname}\\employee_sort.cpp",
+                "${fileDirname}\\predicate.cpp",
                 "-I",
                 "${fileDirname}/../include",
                 // "${workspaceFolder}\\repos\\class_example\\include",

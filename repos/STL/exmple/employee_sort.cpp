@@ -56,7 +56,7 @@ void showWoker(multimap<int,Woker> &m)
     // 0 A B 先获取位置
     cout << " 策划部门： " << endl;
     multimap<int,Woker>::iterator pos =  m.find(CEHUA);
-    int count = m.count(CEHUA);
+    int count = m.count(CEHUA);//统计人数
     int index = 0;
     for (; pos != m.end() && index < count; pos++, index++)
     {
@@ -66,7 +66,7 @@ void showWoker(multimap<int,Woker> &m)
     cout << " --------------------------------- " << endl;
     cout << " 美术部门： " << endl;
     pos =  m.find(MEISHU);
-    m.count(MEISHU);
+    count = m.count(MEISHU);//统计人数
     index = 0;
     for (; pos != m.end() && index < count; pos++, index++)
     {
@@ -76,13 +76,14 @@ void showWoker(multimap<int,Woker> &m)
     cout << " --------------------------------- " << endl;
     cout << " 研发部门： " << endl;
     pos =  m.find(TANFA);
-    m.count(TANFA);
+    count = m.count(TANFA);//统计人数
     index = 0;
     for (; pos != m.end() && index < count; pos++, index++)
     {
         cout << " 姓名： "<< pos->second.m_name << "  薪水: " << pos->second.m_salary << endl;
     }
     cout << " --------------------------------- " << endl;
+    m.clear();
 }
 
 void test()
