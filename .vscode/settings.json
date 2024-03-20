@@ -18,6 +18,9 @@
         "xtree": "cpp",
         "set": "cpp",
         "map": "cpp",
-        "atomic": "cpp"
+        "atomic": "cpp",
+        "algorithm": "cpp",
+        "initializer_list": "cpp",
+        "xhash": "cpp"
     }
 }

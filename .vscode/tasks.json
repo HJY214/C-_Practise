@@ -7,7 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${fileDirname}\\predicate.cpp",
+                "${fileDirname}\\ergodic.cpp",
                 "-I",
                 "${fileDirname}/../include",
                 // "${workspaceFolder}\\repos\\class_example\\include",
